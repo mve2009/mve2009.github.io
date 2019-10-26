@@ -1,0 +1,72 @@
+body {
+  background-image: url(background.jpg);
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 100%;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(HelveticaNeueCyr-Light.ttf);
+}
+footer a {
+  color: #000000;
+  float: right;
+}
+#content {
+  margin: 30px auto;
+  width: 1060px;
+  border: solid 2px #a9c7be;
+  text-align: center;
+  background-color: #ffffff
+}
+#content a {
+  text-decoration: none;
+  background-color: #5e008c;
+  color: #ffffff;
+  border: solid 5px #1414a6;
+  border-radius: 8px;
+}
+#content a:hover {
+  background-color: #1414a6;
+  transition: 700ms;
+}
+#imgl {
+  float: left;
+}
+#imgl img {
+  display: block;
+}
+#imgr {
+  float: right;
+}
+#imgr img {
+  display: block;
+}
+#text {
+  width: 500px;
+  float: left;
+  font-size: 1.3em;
+}
+#logo {
+  height: 134px;
+  font-size: xx-large;
+  border: solid 3px #5a70a6;
+}
+#neptune {
+  height: 272px;
+  border: double 4px #8530c2;
+  color: #e31bf5;
+}
+#ranobe {
+  height: 270px;
+  border: groove 5px #963232;
+  color: #6d4394;
+}
+#kantai {
+  height: 268px;
+  border: double 6px #cad40f;
+  color: #151585;
+}

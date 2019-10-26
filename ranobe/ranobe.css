@@ -1,0 +1,61 @@
+body {
+  background-image: url(background_ranobe.jpg);
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 100%;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(../css/HelveticaNeueCyr-Light.ttf);
+}
+a {
+  text-decoration: none;
+  background-color: #5e008c;
+  color: #ffffff;
+  border: solid 1px #312091;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: #1414a6;
+  transition: 700ms;
+}
+p {
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 1.3em;
+}
+footer {
+  float: right;
+  color: #ffffff;
+}
+#content {
+  margin: 30px auto;
+  width: 1060px;
+  text-align: center;
+}
+#totsw, #totb, #Issth {
+  border: solid 2px #2c3c70;
+  float: left;
+  background-color: #ffffff;
+}
+#totbtxt {
+  float: left;
+  width: 696px;
+}
+#fangmu, #xuqing {
+  float: left;
+}
+#Issth_txt {
+  width: 396px;
+  float: left;
+}
+#clear {
+  clear: both;
+}

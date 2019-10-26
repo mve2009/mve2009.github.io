@@ -1,0 +1,47 @@
+body {
+  background-image: url(background.jpg);
+  color: #000000;
+  font-family: Helvetica;
+  font-size: 100%;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  background-attachment: fixed;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(../css/HelveticaNeueCyr-Light.ttf);
+}
+img {
+  border: double 2px #8530c2;
+}
+a {
+  text-decoration: none;
+  background-color: #5e008c;
+  color: #ffffff;
+  border: solid 1px #312091;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: #1414a6;
+  transition: 700ms;
+}
+footer {
+  float: right;
+}
+#content {
+  margin: 30px auto;
+  width: 1060px;
+}
+#hnr1_text {
+  float: left;
+  padding: 5px 10px;
+  border: double 3px #312091;
+}
+#cdlogo {
+  float: right;
+}
+video {
+  width: 568px;
+  height: 320px;
+  border: border: solid 3px #312091;
+}
